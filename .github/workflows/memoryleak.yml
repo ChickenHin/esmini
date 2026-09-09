@@ -1,10 +1,10 @@
 name: MemoryLeak
 
 on:
-  schedule:
-    # This will run the memory leak check job Nightly at 1:37AM every day for the dev branch
-    # * is a special character in YAML so you have to quote this string
-    - cron: '37 1 * * *'
+  # schedule:
+  #   # This will run the memory leak check job Nightly at 1:37AM every day for the dev branch
+  #   # * is a special character in YAML so you have to quote this string
+  #   - cron: '37 1 * * *'
 
   workflow_dispatch:
 
