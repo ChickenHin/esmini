@@ -1,10 +1,10 @@
 name: Sanitize
 
 on:
-  schedule:
-    # This will run the sanitize job Nightly at 2:37AM every day for the dev branch
-    # * is a special character in YAML so you have to quote this string
-    - cron: '37 2 * * *'
+  # schedule:
+  #   # This will run the sanitize job Nightly at 2:37AM every day for the dev branch
+  #   # * is a special character in YAML so you have to quote this string
+  #   - cron: '37 2 * * *'
 
   workflow_dispatch:
 
